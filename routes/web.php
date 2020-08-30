@@ -15,7 +15,13 @@ Route::get('/','Controller@homepage')->name('homepage');
 
 Route::get('/cadastro','Controller@cadastrar')->name('cadastrar');
 
-Route::get('/login','Controller@fazerLogin')->name('fazerLogin');
+
+/** 
+ * Routes to user auth
+ * =====================================================================
+ */
+Route::get('/login','Controller@fazerLogin');
+Route::post('/login','Controller@fazerLogin')->name('user.login');
 
 /* Route::get('/', function () {
     return view('welcome');

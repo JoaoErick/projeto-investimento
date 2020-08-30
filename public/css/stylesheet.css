@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    border: none;
+
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            -box-sizing: border-box;
+}
+
+/**
+ * ==============================================
+ * stylesheet to login pages
+ * ==============================================
+ */
+div.background{
+    position: absolute;
+    left: 0;
+    width: calc(100% - 500px);
+    height: 100%;
+    background-image: url(../assets/images/login-background.jpg);
+    background-size: cover;
+}
+
+ section#conteudo-view{
+     position: absolute;
+     right: 0;
+     padding: 80px;
+     float: right;
+     width: 500px;
+     height: 100%;
+     background: #12769A;
+ }
+
+ section#conteudo-view h1{
+    float: left;
+    width: 100%;
+    font: 4.2em 'Poppins', cursive;
+    margin-top: 50px;
+    color: #f3f3f3;
+ }
+
+ section#conteudo-view h3,
+ section#conteudo-view form p{
+    float: left;
+    width: 100%;
+    font: 1.1em 'Fredoka One', cursive;
+    color: #f3f3f3;
+ }
+
+ section#conteudo-view form, 
+ section#conteudo-view form label{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+ }
+
+ section#conteudo-view form{
+    margin-top: 40px;
+ }
+
+ section#conteudo-view form p{
+     font-size: 1.8em;
+ }
+
+section#conteudo-view form label input,
+section#conteudo-view form input[type="submit"]{
+    float: left;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 20px;
+    border: 2px solid #2799C3;
+    color: #959595;
+    font: 1.2em 'Arial';
+}
+
+section#conteudo-view form input[type="submit"]{
+    width: 60%;
+    float: right;
+    background: #2799C3;
+    text-align: center;
+    color: #f9f9f9;
+    font: 1.4em 'Poppins', cursive;
+}
