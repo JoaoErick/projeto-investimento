@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ asset('css/stylesheet.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
-
+<link rel="shortcut icon" href="{{ asset('assets/images/favicon-investindo.ico') }}" type="image/x-icon">
 </head>
 <body>
     <div class="background">
