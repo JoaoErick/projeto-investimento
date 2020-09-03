@@ -7,9 +7,7 @@
 <p align="center">Aplicação web destinada ao público interessado por investimentos. Neste projeto, os afiliados poderão formar grupos de investidores e aplicar capital nos diversos ramos do mercado financeiro.</p>
 
 <div align="center" >
-  <img src="./github/SignGoBarber.gif" alt="demo-web" height="425">
-  <img src="./github/WebGoBarber.gif" alt="demo-web" height="425">
-  <img src="./github/AppGobarber.gif" alt="demo-mobile" height="425">
+  <img src="./assets-for-readme/login-page.png" alt="demo-web" height="425">
 </div>
 
 ## 🚀 Tecnologias
