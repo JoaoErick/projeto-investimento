@@ -1,3 +1,43 @@
+<h1 align="center">
+<br>
+  <img src="./assets-for-readme/title.png" alt="Investindo" width="200">
+<br>
+</h1>
+
+<p align="center">Aplicação web destinada ao público interessado por investimentos. Neste projeto, os afiliados poderão formar grupos de investidores e aplicar capital nos diversos ramos do mercado financeiro.</p>
+
+<div align="center" >
+  <img src="./github/SignGoBarber.gif" alt="demo-web" height="425">
+  <img src="./github/WebGoBarber.gif" alt="demo-web" height="425">
+  <img src="./github/AppGobarber.gif" alt="demo-mobile" height="425">
+</div>
+
+## 🚀 Tecnologias
+
+Este projeto foi desenvolvido com o auxílio das tecnologias:
+
+- ✔️ Php
+
+- ✔️ Laravel
+
+- ✔️ Composer
+
+- ✔️ Bootstrap
+
+- ✔️ Google Fonts
+
+- ✔️ MySQL
+
+## 😉 Onde me encontrar?
+<a href="https://github.com/JoaoErick">
+<img src="./assets-for-readme/github.png" alt="github" height="50"></a>
+<a href="https://www.linkedin.com/in/joão-erick-barbosa-9050801b0/">
+<img src="./assets-for-readme/linkedin.png" alt="linkedin" height="50"></a>
+<a href="mailto:jsilva@ecomp.uefs.br">
+<img src="./assets-for-readme/gmail.png" alt="gmail" height="50"></a>
+<br />
+
+## 📝 Considerações do framework Laravel
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
