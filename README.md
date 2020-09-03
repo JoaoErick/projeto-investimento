@@ -34,7 +34,7 @@ Este projeto foi desenvolvido com o auxílio das tecnologias:
 <a href="https://www.linkedin.com/in/joão-erick-barbosa-9050801b0/">
 <img src="./assets-for-readme/linkedin.png" alt="linkedin" height="50"></a>
 <a href="mailto:jsilva@ecomp.uefs.br">
-<img src="./assets-for-readme/gmail.png" alt="gmail" height="50"></a>
+<img src="./assets-for-readme/email.png" alt="gmail" height="50"></a>
 <br />
 
 ## 📝 Considerações do framework Laravel
