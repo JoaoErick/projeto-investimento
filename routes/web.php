@@ -22,7 +22,7 @@ Route::get('/cadastro','Controller@cadastrar')->name('cadastrar');
  */
 Route::get('/login','Controller@fazerLogin');
 Route::post('/login','DashboardController@auth')->name('user.login');
-Route::post('/dashboard','DashboardController@index')->name('user.dashboard');
+Route::get('/dashboard','DashboardController@index')->name('user.dashboard');
 
 /* Route::get('/', function () {
     return view('welcome');
