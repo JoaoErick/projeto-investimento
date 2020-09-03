@@ -24,7 +24,10 @@ Este projeto foi desenvolvido com o auxílio das tecnologias:
 
 - ✔️ Google Fonts
 
-- ✔️ MySQL
+- ✔️ MySQL  
+
+## 🙋🏾‍♂️ Autor  
+João Erick Barbosa
 
 ## 😉 Onde me encontrar?
 <a href="https://github.com/JoaoErick">
