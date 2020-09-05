@@ -13,12 +13,12 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         User::create([
-            'cpf' => '11122233366',
+            'cpf' => '11122233344',
             'name' => 'João',
             'phone' => '3599999999', 
             'birth' => '1980-10-01', 
             'gender' => 'M', 
-            'email' => 'joao@email.com', 
+            'email' => 'joao@sistema.com', 
             'password' => env('PASSWORD_HASH') ? bcrypt('123456') : '123456', 
         ]);
     }
