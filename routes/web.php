@@ -24,4 +24,5 @@ Route::get('/login','Controller@fazerLogin');
 Route::post('/login','DashboardController@auth')->name('user.login');
 Route::get('/dashboard','DashboardController@index')->name('user.dashboard');
 
-Route::get('user','UsersController@index')->name('user.index');
+/* Grupo de rotas para o CRUD */
+Route::resource('user', 'UsersController'); 
