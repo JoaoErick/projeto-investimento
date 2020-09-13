@@ -11,7 +11,7 @@
         @include('templates.formulario.input', ['input' => 'name', 'attributes' => ['placeholder' => 'Nome' ]])
         @include('templates.formulario.input', ['input' => 'phone', 'attributes' => ['placeholder' => 'Telefone' ]])
         @include('templates.formulario.input', ['input' => 'email', 'attributes' => ['placeholder' => 'E-mail' ]])
-        @include('templates.formulario.password', ['input' => 'email', 'attributes' => ['placeholder' => 'Senha' ]])
+        @include('templates.formulario.password', ['input' => 'password', 'attributes' => ['placeholder' => 'Senha' ]])
         @include('templates.formulario.submit', ['input' => 'Cadastrar'])
 
     {!! Form::close() !!}
