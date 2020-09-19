@@ -44,10 +44,10 @@ class DashboardController extends Controller
 
         try {
 
-            if(env('PASSWORD_HASH')) {
+            if(env('PASSWORD_HASH')) { /* Quando a criptografia está ativada */
                 \Auth::attempt($data, false);
             } 
-            else {
+            else { /* Quando a criptografia está desativada */
                 $user = $this->repository->findWhere(['email' => $request->get('username')])->first();
                 
                 if(!$user)
