@@ -41,4 +41,24 @@ class UserService
     }
     public function update(){}
     public function delete(){}
+
+    public function destroy($user_id){
+        try
+        {
+            $this->repository->deleteWhere(['id' => $user_id]);
+
+            return [
+                'success' => true,
+                'messages' => 'Usuário removido',
+                'data' => null,
+            ];
+        }
+        catch(\Exception $e)
+        {
+            return [
+                'success' => false,
+                'messages' => 'Erro de execução',
+            ];
+        }
+    }
 }
