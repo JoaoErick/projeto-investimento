@@ -17,6 +17,7 @@ class UserService
         $this->validator = $validator;
     }
 
+    /* Implementar a validação de CPF e verificação telefone apenas com números*/
     public function store($data)
     {
         try
