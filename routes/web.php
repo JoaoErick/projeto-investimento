@@ -26,3 +26,4 @@ Route::get('/dashboard','DashboardController@index')->name('user.dashboard');
 
 /* Grupo de rotas para o CRUD */
 Route::resource('user', 'UsersController'); 
+Route::resource('instituition', 'InstituitionsController'); 
